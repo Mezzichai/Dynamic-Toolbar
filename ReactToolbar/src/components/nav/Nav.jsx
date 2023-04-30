@@ -46,4 +46,3 @@ const handleAddCalc = () => {
 }
 
 export default Nav
-Footer
