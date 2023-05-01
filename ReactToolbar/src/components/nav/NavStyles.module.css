@@ -3,6 +3,7 @@
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
+    min-width: 20rem;
 }
 
 .edit {
@@ -24,5 +25,37 @@
 
 .nameCalcForm {
     display: flex;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.addCalc {
+    background-color: transparent;
+}
+
+.plusIcon {
+    margin-left: .5rem
+}
+
+.btn {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 1rem;
+ cursor: pointer;
+}
+
+.nameCalc {
+    padding: .6rem
+}
+
+.x {
+ color: red;
+ 
+}
+
+.check {
+ color: green;
 
 }
